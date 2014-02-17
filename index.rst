@@ -3,14 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to ObsAstro's documentation!
-====================================
+Introduction to Astronomical Image Analaysis
+============================================
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
+   01_image_statistics/index
 
 
 Indices and tables
