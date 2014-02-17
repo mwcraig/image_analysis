@@ -16,8 +16,3 @@ Contents:
    Master frames <masters>
    Your first reduction: a flat frame <reduce_a_flat>
    List of all questions <do_all_this>
-
-.. stuff that will get moved to next week is below 
-   **REMAINING IS FOR NEXT WEEK** Image reduction: Bias/Dark <reduction_bias_dark>
-   Flats: Masters and corrections <master_flat>
-   Your second reduction: a science image <reduce_science>
