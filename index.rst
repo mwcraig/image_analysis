@@ -19,6 +19,7 @@ Contents:
     05_automated_reduction/index
     06_photometry_intro/index
     07_photometry_automated/index
+    08_planning_reductions/index
 
 Indices and tables
 ==================
