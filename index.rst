@@ -14,7 +14,7 @@ Contents:
    01_image_statistics/index
    02_master_frames/index
    03_planning_observations/index
-
+   04_reduction_by_hand/index
 
 Indices and tables
 ==================
