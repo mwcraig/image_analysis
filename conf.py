@@ -25,7 +25,17 @@ import sys, os
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.autodoc', 'sphinx.ext.doctest', 'sphinx.ext.intersphinx', 'sphinx.ext.todo', 'sphinx.ext.coverage', 'sphinx.ext.pngmath', 'sphinx.ext.mathjax', 'sphinx.ext.ifconfig', 'sphinx.ext.viewcode']
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.doctest',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.todo',
+    'sphinx.ext.coverage',
+    'sphinx.ext.pngmath',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.ifconfig',
+    'sphinx.ext.viewcode'
+]
 
 # Enable todo extension by default
 todo_include_todos = True
@@ -124,6 +134,9 @@ html_theme = 'default'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+#for path, dirs, files in os.walk('.'):
+#    if '_static' in path:
+#        html_static_path.append(path)
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
@@ -131,7 +144,7 @@ html_static_path = ['_static']
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
-#html_use_smartypants = True
+html_use_smartypants = True
 
 # Custom sidebar templates, maps document names to template names.
 #html_sidebars = {}
