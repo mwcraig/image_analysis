@@ -12,6 +12,7 @@ Contents:
    :maxdepth: 2
 
    01_image_statistics/index
+   02_master_frames/index
 
 
 Indices and tables
