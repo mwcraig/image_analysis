@@ -18,6 +18,7 @@ Contents:
     04_reduction_by_hand/index
     05_automated_reduction/index
     06_photometry_intro/index
+    07_photometry_automated/index
 
 Indices and tables
 ==================
