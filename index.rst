@@ -15,6 +15,7 @@ Contents:
    02_master_frames/index
    03_planning_observations/index
    04_reduction_by_hand/index
+   05_automated_reduction/index
 
 Indices and tables
 ==================
