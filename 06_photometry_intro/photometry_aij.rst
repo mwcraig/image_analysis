@@ -75,13 +75,16 @@ Doing aperture Photometry
 
 .. |show_sky| image:: _static/sky_abackground.png
     :scale: 10%
-    :target: _static/sky_abackground.png
 
 .. |photometry_settings_1| image:: _static/photometry-parameters1.png
     :scale: 5%
     :target: _static/photometry-parameters1.png
 
-.. |photometry_settings_2| image:: _static/photometry-parameters2.png
+.. |photometry_settings_2| fancybox:: _static/photometry-parameters2.png
+    :height: 50pc
+    :width: 50pc
+
+..
     :scale: 5%
     :target: _static/photometry-parameters2.png
 
