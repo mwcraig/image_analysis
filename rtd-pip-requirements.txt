@@ -1,2 +1,2 @@
-sphinxcontrib-fancybox>=0.3.3
+git://github.com/mwcraig/sphinxcontrib-fancybox.git@fancybox-v2#sphinxcontrib-fancybox
 pillow
