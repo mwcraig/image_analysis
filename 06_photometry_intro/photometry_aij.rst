@@ -85,7 +85,7 @@ Doing aperture Photometry
     :width: 5%
     :height: 10%
 
-.. |photometry_settings_2| fancybox:: _static/photometry-parameters2.png
+.. |photometry_settings_2| fancybox:: _static/photometry-parameters2-new.png
     :height: 5%
     :width: 5%
 
