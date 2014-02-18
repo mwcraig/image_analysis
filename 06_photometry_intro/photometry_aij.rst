@@ -7,12 +7,15 @@ Initial guess for the aperture size
 ------------------------------------
 
 #. Click line selection tool
-#. Draw line across one of the stars that is circled in this image: |m34_sources|
+#. Draw line across one of the stars that is circled in this image (or the image of interest to you:
+
+|m34_sources|
+
 #. Select `Analyze -> Plot seeing profile`
 #. When asked whether to save the aperture radii, make the following changes:
 
     + Make the gap between the aperture radius and the inner sky radius at least 5 pixels
-    + Make the difference between the inner and outer sky radii at least 5 pixels
+    + Make the difference between the inner and outer sky radii at least 10 pixels
 
 .. note::
     
@@ -28,7 +31,8 @@ Setting up aperture photometry
 -------------------------------
 
 #. Double click on the photometry tool in the toolbar. |photometry|
-#. Check that the first window that opens matches this: |photometry_settings_1|
+#. Check that the first window that opens matches this, except for the aperture radius and the inner and 
+   outer sky radii, which you should choose based on the FWHM: |photometry_settings_1|
 #. When done, click OK, and in the next window that opens check/set several things:
 
     * Gain for the Apogee Alta U9 is roughly 1.48 (feel free to use the value you got earlier this semester)
@@ -65,26 +69,24 @@ Doing aperture Photometry
     #. How could you reduce that source of noise?
 
 
-.. |m34_sources| image:: _static/m34_comparisons.png
-    :scale: 50%
-    :target: _static/m34_comparisons.png
+.. |m34_sources| fancybox:: _static/m34_comparisons.png
+    :width: 50%
+    :height: 50%
 
-.. |photometry| image:: _static/photometry_button.png
-    :scale: 20%
-    :target: _static/photometry_button.png
+.. |photometry| fancybox:: _static/photometry_button.png
+    :width: 20%
+    :height: 20%
 
-.. |show_sky| image:: _static/sky_abackground.png
-    :scale: 10%
+.. |show_sky| fancybox:: _static/sky_abackground.png
+    :width: 10%
+    :height: 10%
 
-.. |photometry_settings_1| image:: _static/photometry-parameters1.png
-    :scale: 5%
-    :target: _static/photometry-parameters1.png
+.. |photometry_settings_1| fancybox:: _static/photometry-parameters1.png
+    :width: 5%
+    :height: 10%
 
 .. |photometry_settings_2| fancybox:: _static/photometry-parameters2.png
-    :height: 50pc
-    :width: 50pc
+    :height: 5%
+    :width: 5%
 
-..
-    :scale: 5%
-    :target: _static/photometry-parameters2.png
 
