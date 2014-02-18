@@ -21,7 +21,7 @@ Initial guess for the aperture size
 .. todo::
 
     #. What is the FWHM of the star you took the seeing profile of? 
-    #. What does the FWHM mean? Answer both in terms of what the acronym means and an explanation in plain english what it represents.
+    #. What does the FWHM mean? Answer both in terms of what the acronym means and an explanation in plain english what it represents. 
     #. What aperture size was chosen? How large is it compared to the FWHM (e.g. 2X, or half)?
 
 Setting up aperture photometry
