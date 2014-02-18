@@ -1,1 +1,2 @@
-sphinxcontrib-fancybox
+sphinxcontrib-fancybox>=0.3.3
+pillow
